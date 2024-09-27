@@ -1,10 +1,8 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
-      <Link href='/application'>Go!</Link>
-      <Link href='/congratulation'>コングラ！</Link>
       <h1 className="text-3xl font-bold">ツクカツ</h1>
       <h2 className="text-xl mb-6">つくばのエンジニア志望学生のインターン探しをサポートするサイト</h2>
       <div className="border rounded-lg p-6 shadow-lg w-full max-w-md">
@@ -14,112 +12,52 @@ export default function Home() {
         {/* 会社情報 */}
         <div className="space-y-4">
           <div>
-            <h3 className="font-semibold text-lg">[未経験でも大丈夫！] ホームページを作ってみよう！</h3>
+            <h3 className="font-semibold text-lg">Rails 長期エンジニアインターン募集中！</h3>
           </div>
           <div>
             <h3 className="font-semibold text-lg">社名:</h3>
-            <p>DIC Japan株式会社</p>
+            <p>ツクカツ株式会社</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-lg">アクセス:</h3>
+            <p>茨城県つくば市天王台１丁目１−１</p>
           </div>
           <div>
             <h3 className="font-semibold text-lg">職種:</h3>
-            <p>ホームページ制作</p>
+            <p>エンジニア長期インターン</p>
           </div>
           <div>
-            <h3 className="font-semibold text-lg">時給:</h3>
-            <p>1200円 ~ 2000円</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">勤務地:</h3>
-            <p>茨城県つくば市梅園5丁目34</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">勤務時間:</h3>
-            <p>フレックスタイム制(週合計12時間)</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">求められること:</h3>
+            <h3 className="font-semibold text-lg">必要なスキル:</h3>
             <ul className="list-disc pl-5">
-              <li>学習意欲があり成長したい人</li>
-              <li>使う言語はHTMLとCSSです</li>
-              <li>実務前にチュートリアルを用意してあるので、未経験でも安心して参加いただけます！</li>
+              <li>プログラミング経験１年以上</li>
+              <li>Railsを用いて自作のWebアプリを１つ作成したことがある</li>
             </ul>
           </div>
-        </div>
-      </div>
-      <div className="border rounded-lg p-6 shadow-lg w-full max-w-md">
-        {/* 会社のロゴ */}
-        <div className="flex justify-center mb-4">
-        </div>
-        {/* 会社情報 */}
-        <div className="space-y-4">
           <div>
-            <h3 className="font-semibold text-lg">[未経験でも大丈夫！] ホームページを作ってみよう！</h3>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">社名:</h3>
-            <p>株式会社Good</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">職種:</h3>
-            <p>ホームページ制作</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">時給:</h3>
-            <p>1800円 ~ 2500円</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">勤務地:</h3>
-            <p>東京都港区</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">勤務時間:</h3>
-            <p>フレックスタイム制(週合計12時間)</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">求められること:</h3>
-            <ul className="list-disc pl-5">
-              <li>学習意欲があり成長したい人</li>
-              <li>使う言語はHTMLとCSSです</li>
-              <li>実務前にチュートリアルを用意してあるので、未経験でも安心して参加いただけます！</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="border rounded-lg p-6 shadow-lg w-full max-w-md">
-        {/* 会社のロゴ */}
-        <div className="flex justify-center mb-4">
-        </div>
-        {/* 会社情報 */}
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-semibold text-lg">[やる気のある人募集！！]ホームページを作ってみよう！</h3>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">社名:</h3>
-            <p>enen株式会社</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">職種:</h3>
-            <p>ホームページ制作</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">時給:</h3>
-            <p>1200円 ~ 2000円</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">勤務地:</h3>
-            <p>茨城県つくば市梅園5丁目34</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">勤務時間:</h3>
-            <p>フレックスタイム制(週合計12時間)</p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-lg">求められること:</h3>
-            <ul className="list-disc pl-5">
-              <li>学習意欲があり成長したい人</li>
-              <li>基本的なWebの知識がある人</li>
-            </ul>
+              <h3 className="font-semibold text-lg">現在働いているインターン生の情報:</h3>
+              <ul className="list-disc pl-5">
+                <details>
+                  <summary className="cursor-pointer text-blue-500 hover:underline">Aさん</summary>
+                  <div className="pl-5">
+                    <p>業務内容：</p>
+                    <p>週の勤務時間：</p>
+                  </div>
+                </details>
+                <details>
+                  <summary className="cursor-pointer text-blue-500 hover:underline">Bさん</summary>
+                  <div className="pl-5">
+                    <p>こちらにBさんの詳細情報が表示されます。</p>
+                  </div>
+                </details>
+              </ul>
+            </div>
+          <div className="flex items-center">
+            <Link href="" className="text-blue-500 hover:underline">
+              詳細
+            </Link>
+            <Link href="/application" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-auto">
+              応募する
+            </Link>
           </div>
         </div>
       </div>
