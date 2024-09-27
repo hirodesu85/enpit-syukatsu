@@ -1,6 +1,10 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
+      <Link href='/application'>Go!</Link>
+      <Link href='/congratulation'>コングラ！</Link>
       <h1 className="text-3xl font-bold">ツクカツ</h1>
       <h2 className="text-xl mb-6">つくばのエンジニア志望学生のインターン探しをサポートするサイト</h2>
       <div className="border rounded-lg p-6 shadow-lg w-full max-w-md">
