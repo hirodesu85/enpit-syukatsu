@@ -24,13 +24,19 @@ export default function Home() {
           </div>
           <div>
             <h3 className="font-semibold text-lg">職種:</h3>
-            <p>エンジニア長期インターン</p>
+            <p>サーバーサイドエンジニア長期インターン</p>
           </div>
           <div>
             <h3 className="font-semibold text-lg">必要なスキル:</h3>
             <ul className="list-disc pl-5">
-              <li>プログラミング経験１年以上</li>
+              <li>プログラミング経験１年以上（授業などでもOK）</li>
               <li>Railsを用いて自作のWebアプリを１つ作成したことがある</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold text-lg">応募前に勉強しておくといいこと:</h3>
+            <ul className="list-disc pl-5">
+              <li>Railsチュートリアルを一周する</li>
             </ul>
           </div>
           <div>

@@ -31,7 +31,7 @@ export default function Application() {
       <h1 className="text-2xl font-bold text-center bg-purple-700 text-white py-4 rounded-b-lg rounded-t-lg">
         応募フォーム入力画面
       </h1>
-      <h2 className="text-2xl font-semibold text-center mt-4">DIC Japan株式会社</h2>
+      <h2 className="text-2xl font-semibold text-center mt-4">ツクカツ株式会社</h2>
 
       <form onSubmit={handleSubmit}>
         <div className="mt-6">
